@@ -1,2 +1,2 @@
-<<The Go Programming Language>>读书笔记
+The Go Programming Language
 ======
