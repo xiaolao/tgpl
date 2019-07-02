@@ -39,18 +39,21 @@ func (cat Cat) String() string {
 }
 
 func main() {
-	category := AnimalCategory{species: "cat"}
+	category := AnimalCategory{species: "cat"} // cat
+	// The animal category: cat
 	fmt.Printf("The animal category: %s\n", category)
 
 	animal := Animal{
 		scientificName: "American Shorthair",
 		AnimalCategory: category,
 	}
+	// the animal: American Shorthair (category: cat)
 	fmt.Printf("the animal: %s\n", animal)
 
 	cat := Cat{
 		name:   "little pig",
 		Animal: animal,
 	}
+	// The cat: American Shorthair: (categary: cat, name: little pig)
 	fmt.Printf("The cat: %s\n", cat)
 }
