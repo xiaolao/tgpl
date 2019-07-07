@@ -36,6 +36,6 @@ func main() {
 			trigger(i, fn)
 		}(i)
 	}
-	// 阻塞主gorutine
+	// 阻塞主goroutine
 	trigger(10, func() {})
 }
