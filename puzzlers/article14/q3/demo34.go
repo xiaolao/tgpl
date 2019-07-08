@@ -62,5 +62,4 @@ func main() {
 	fmt.Printf("Dog implements interface Named: %v\n", ok) // true
 	_, ok = interface{}(dog).(Pet)
 	fmt.Printf("Dog implements interface Pet: %v\n", ok) // true
-
 }
